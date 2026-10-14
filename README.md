@@ -36,19 +36,3 @@ Place the instructor-provided files under [`data/`](data/):
 
 Do **not** invent your own train/validation/test split. Use the provided CSVs as given.
 
-## Setup
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-## Repository layout
-
-```text
-data/           Shared train / validation / test CSVs
-common/         Shared utilities (stubs; fill as needed)
-projects/       One folder per method (your work goes here)
-requirements.txt
-```
